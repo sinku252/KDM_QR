@@ -34,13 +34,14 @@
         android:text="Scan Items"
         android:layout_centerInParent="true"
         android:layout_weight="1"/>
-    <Button
-        android:id="@+id/btnReceipt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Scan Receipt"
-        android:layout_alignParentRight="true"
-        android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btnReceipt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:text="Scan Receipt" />
     </RelativeLayout>
 
     <ListView
