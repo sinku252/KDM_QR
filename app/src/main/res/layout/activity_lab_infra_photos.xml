@@ -1,0 +1,197 @@
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+      
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+  
+    
+     <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Lab Picture's" />
+     
+     <TextView
+        android:id="@+id/textView_srno_lab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:visibility="gone" />
+     
+    <FrameLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+
+
+       <FrameLayout
+           android:layout_gravity="right|center_vertical"
+           android:layout_width="140dp"
+           android:layout_height="90dp"
+           >
+
+
+           <ImageView
+               android:id="@+id/Labtoolphoto"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/sample">
+           </ImageView>
+
+
+       </FrameLayout>
+
+
+    <Button
+            android:id="@+id/Labtoolphoto1"
+            style="@style/btnStyleBlackpearl"
+            android:layout_width="160dp"
+            android:layout_height="62dp"
+               android:background="@drawable/barback_1"
+             android:layout_marginLeft="5dp"
+             android:text="Lab With Tools And Equipments"
+             android:textSize="18dp"
+            android:layout_gravity="left|center_vertical">
+
+         </Button>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="TextView" />
+
+         </FrameLayout>
+         
+   
+   
+   
+     <FrameLayout
+         android:id="@+id/frm"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+
+        <FrameLayout
+            android:layout_gravity="right|center_vertical"
+            android:layout_width="140dp"
+            android:layout_height="90dp"
+            >
+
+            <ImageView
+                android:id="@+id/Labpmockphoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:src="@drawable/sample">
+            </ImageView>
+
+        </FrameLayout>
+   
+     
+
+
+    <Button
+            android:id="@+id/Labpmockphoto1"
+            style="@style/btnStyleBlackpearl"
+            android:layout_width="160dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="62dp"
+               android:background="@drawable/barback_1"
+             android:layout_marginLeft="5dp"
+             android:text="Mock store setup store photos"
+             android:textSize="18dp"
+            android:layout_gravity="left">
+            
+         </Button>
+         </FrameLayout>
+         
+           <Button   
+                android:id="@+id/labanother"
+            style="@style/btnStyleBlackpearl"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="50dp"
+            android:layout_height="wrap_content"
+                android:background="@drawable/barback_1"
+             android:layout_marginLeft="20dp"
+             android:text="Audit Another Lab"
+             android:textSize="18dp"
+            android:layout_centerHorizontal="true"
+             android:layout_marginRight="20dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"></Button>
+           
+           
+           
+           
+           
+           
+           
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:id="@+id/labprv1"
+                android:background="@drawable/barback_1"
+                android:text="Prev"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+
+            <Button
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:id="@+id/savebtn"
+                android:background="@drawable/barback_1"
+                android:text="Save"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+            <Button
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:id="@+id/labnext1"
+                android:background="@drawable/barback_1"
+                android:text="Next"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+
+    
+          </LinearLayout>
+    </LinearLayout>

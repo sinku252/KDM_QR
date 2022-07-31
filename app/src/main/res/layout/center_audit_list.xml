@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+   <TextView 
+        android:id="@+id/label_audit_name"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="Audit Name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_audit_name"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        
+        android:textSize="13sp"/>
+   
+   
+   <TextView 
+        android:id="@+id/label_audit_no"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="Audit Number"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_audit_no"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        
+        
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   
+   <TextView 
+        android:id="@+id/label_center"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="Center Code"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_center_centeraudit"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+       
+        
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   
+   <TextView 
+        android:id="@+id/label_center_name"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="Center Name"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_center_name"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        
+        
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   
+   
+   
+   <TextView 
+        android:id="@+id/label_center_number"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="Center Number"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_center_number"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        
+       
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   
+   
+   
+   <TextView 
+        android:id="@+id/label_center_email"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="Center Email"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_center_email"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+       
+        
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/label_center_manager_name"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="Center Manager Name"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_center_manager_name"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+       
+        
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   
+   <TextView 
+        android:id="@+id/label_center_manager_number"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="Center Manager Number"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_center_manager_number"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        
+      
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   
+   
+  
+   
+   
+   <TextView 
+        android:id="@+id/label_center_loc_id"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="Center Location Id"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_center_location_id"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        
+        android:textSize="13sp"/>
+   
+   
+   <TextView 
+        android:id="@+id/label_trainer_prov_name"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="Trainer Providing Name"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_trainer_prov_name"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        
+        
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   
+   <TextView 
+        android:id="@+id/label_training_center_floor"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="Training Center Floor"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_training_center_floor"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+       
+        
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   
+   <TextView 
+        android:id="@+id/label_project"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="Project"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_project"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        
+        
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   
+   
+   
+   <TextView 
+        android:id="@+id/label_jobrole"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="Jobrole"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_jobrole"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        
+       
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   
+   
+   
+   <TextView 
+        android:id="@+id/label_center_manager_id"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="Center Manager Id"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_center_manager_id"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+       
+        
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/label_captid_center_audit"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="Capt id"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <ImageView 
+        android:id="@+id/image_captid"
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+       
+        
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   
+   <TextView 
+        android:id="@+id/label_state"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="State"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_state"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        
+      
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   
+   
+   
+   <TextView 
+        android:id="@+id/label_district"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="District"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_district"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        
+        android:textSize="13sp"/>
+   
+   
+   <TextView 
+        android:id="@+id/label_address"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="Address"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_address"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        
+        
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   
+   <TextView 
+        android:id="@+id/label_landmark"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="Landmark"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_landmark"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+       
+        
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   
+   <TextView 
+        android:id="@+id/label_city"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="City"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_city"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        
+        
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   
+   
+   
+   <TextView 
+        android:id="@+id/label_pincode_center_audit"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="Pincode"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_pincode_center_audit"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        
+       
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   ------------------------------------------------------------------
+    <TextView 
+        android:id="@+id/label_sr_no_center_audit"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="Sr_no"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_sr_no_center_audit"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        
+        android:textSize="13sp"/>
+   
+   
+   <TextView 
+        android:id="@+id/label_remarks"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="Remarks"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_remarks"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        
+        
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   
+   <TextView 
+        android:id="@+id/label_latitude"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="Latitude"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_latitude"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+       
+        
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   
+   <TextView 
+        android:id="@+id/label_longitude"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="Longitude"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_longitude"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        
+        
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   </LinearLayout>
+</ScrollView>
+   
+   
+   

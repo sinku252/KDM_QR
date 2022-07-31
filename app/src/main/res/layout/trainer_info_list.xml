@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+   <TextView 
+        android:id="@+id/label_trainer_name"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="Trainer Name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_trainer_name"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        
+        android:textSize="13sp"/>
+   
+   
+   <TextView 
+        android:id="@+id/label_trainer_eng"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="Trainer Eng"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_trainer_eng"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        
+        
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   
+   <TextView 
+        android:id="@+id/label_trainer_exp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="Trainer Experience"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_trainer_exp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        
+        
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   
+   <TextView 
+        android:id="@+id/label_trainer_qualification"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="Trainer Qualification"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_trainer_qualification"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+       
+        
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   
+   <TextView 
+        android:id="@+id/label_trainer_email"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="Trainer Email Id"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_trainer_email"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        
+        
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   
+   
+   
+   <TextView 
+        android:id="@+id/label_trainer_number"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="Trainer Number"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_trainer_number"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        
+       
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   
+   
+   
+   <TextView 
+        android:id="@+id/label_trainer_certification"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="Trainer Certification"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_trainer_certification"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+       
+        
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/label_trainer_book"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="Trainer Book"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_trainer_book"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+       
+        
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   
+   <TextView 
+        android:id="@+id/label_center_code_trainer"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="Center Code"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_center_code_trainer"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        
+      
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   
+  
+   
+   <LinearLayout
+       android:gravity="center_horizontal"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+       
+       
+       
+       <LinearLayout
+           android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+       
+       <TextView 
+        android:id="@+id/label_trainer_pic"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="Trainer Pic"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+       
+       <ImageView 
+           android:id="@+id/image_trainer_pic"
+           android:layout_width="100dp"
+           android:layout_height="100dp"/>
+       
+       
+        </LinearLayout>
+        
+       
+        <LinearLayout
+            android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+       
+       <TextView 
+        android:id="@+id/label_trainer_rid"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="Trainer Rid"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+       
+       <ImageView 
+           android:id="@+id/image_trainer_rid"
+           android:layout_width="100dp"
+           android:layout_height="100dp"/>
+       
+       
+        </LinearLayout>
+   </LinearLayout>
+   
+   
+   
+   <LinearLayout
+       android:gravity="center_horizontal"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+       
+       
+       
+       <LinearLayout
+           android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+       
+       <TextView 
+        android:id="@+id/label_trainer_certificate"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="Trainer Certificate"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+       
+       <ImageView 
+           android:id="@+id/image_trainer_certificate"
+           android:layout_width="100dp"
+           android:layout_height="100dp"/>
+       
+       
+        </LinearLayout>
+        
+       
+        <LinearLayout
+            android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+       
+       <TextView 
+        android:id="@+id/label_trainer_payslip"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="Trainer Payslip"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+       
+       <ImageView 
+           android:id="@+id/image_trainer_payslip"
+           android:layout_width="100dp"
+           android:layout_height="100dp"/>
+       
+       
+        </LinearLayout>
+   </LinearLayout>
+   
+   
+   
+   
+   
+    
+
+</LinearLayout>
+</ScrollView>

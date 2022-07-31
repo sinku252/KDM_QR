@@ -1,0 +1,384 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+     android:layout_height="fill_parent" 
+      
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:text="Center Ownership"
+            android:textColor="#000000"
+               android:textSize="18dp"
+            android:textStyle="bold" />
+  <RadioGroup
+     android:id="@+id/own"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+     >
+        <RadioButton
+            android:id="@+id/own1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:text="Own Center"
+           android:textSize="18dp"
+             android:textColor="#000000"
+             android:textStyle="bold"
+            />
+
+        <RadioButton
+             android:id="@+id/own2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:checked="true"
+              android:textSize="18dp"
+             android:textColor="#000000"
+             android:textStyle="bold"
+             android:layout_marginTop="-30dp"
+             android:layout_marginLeft="150dp"
+             android:text="Franchisee Center" 
+            
+           /></RadioGroup>
+        
+        
+         <TextView
+            android:id="@+id/textT1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:text="Center Type"
+            android:textColor="#000000"
+           android:textSize="18dp"
+            android:textStyle="bold" />
+         
+         
+         <RadioGroup android:id="@+id/type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        <RadioButton
+            android:id="@+id/type1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rent"
+          
+            android:layout_marginTop="0dp"
+          android:textSize="18dp"
+             android:textColor="#000000"
+             android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/type2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:layout_marginTop="-33dp"
+            android:layout_marginLeft="150dp"
+         android:textSize="18dp"
+             android:textColor="#000000"
+             android:textStyle="bold"
+            android:text="Owned" 
+            
+            /></RadioGroup>
+         <TextView
+      android:id="@+id/nameT1"
+       android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="#000000"
+	   android:textSize="18dp"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginLeft="12dp"
+	    android:textStyle="bold"
+	    android:layout_gravity="left"
+	    android:text="Center Carpet Area(Sqft) " />
+    
+     <EditText
+          android:id="@+id/carpet"
+          android:layout_width="fill_parent"
+          android:layout_height="50dp"
+          android:layout_marginTop="5dp"
+          android:cursorVisible="true"
+          android:ems="5"
+          android:background="@drawable/rounded_corner"
+          android:layout_marginLeft="12dp"
+          android:layout_marginRight="12dp"
+          android:inputType="number"
+          android:maxLines="1"
+          android:padding="15dp"
+          android:textColor="#000000"
+        android:textSize="18dp"
+          android:textStyle="bold" />
+        
+        
+         <TextView
+      android:id="@+id/nameTE1"
+       android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="#000000"
+	    android:textSize="18dp"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginLeft="12dp"
+	    android:textStyle="bold"
+	    android:layout_gravity="left"
+	    android:text="Number Of Class Room's " />
+    
+     <EditText
+          android:id="@+id/classroom"
+          android:layout_width="fill_parent"
+          android:layout_height="50dp"
+          android:layout_marginTop="5dp"
+          android:cursorVisible="true"
+          android:ems="5"
+          android:background="@drawable/rounded_corner"
+          android:layout_marginLeft="12dp"
+          android:layout_marginRight="12dp"
+          android:inputType="number"
+          android:maxLines="1"
+         android:padding="15dp"
+          android:textColor="#000000"
+         android:textSize="18dp"
+          android:textStyle="bold" />
+     
+     
+      <TextView
+      android:id="@+id/name2"
+       android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="#000000"
+	    android:textSize="18dp"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginLeft="12dp"
+	    android:textStyle="bold"
+	    android:layout_gravity="left"
+	    android:text="Number Of Lab's" />
+    
+     <EditText
+          android:id="@+id/lab2"
+          android:layout_width="fill_parent"
+          android:layout_height="50dp"
+          android:layout_marginTop="5dp"
+          android:cursorVisible="true"
+          android:ems="5"
+          android:background="@drawable/rounded_corner"
+          android:layout_marginLeft="12dp"
+          android:layout_marginRight="12dp"
+
+          android:inputType="number"
+          android:maxLines="1"
+         android:padding="15dp"
+          android:textColor="#000000"
+         android:textSize="18dp"
+          android:textStyle="bold" />
+
+
+
+		<TextView
+			android:id="@+id/namee"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#000000"
+			android:textSize="18dp"
+			android:layout_marginTop="10dp"
+			android:layout_marginLeft="12dp"
+			android:textStyle="bold"
+			android:layout_gravity="left"
+			android:text="Number Of Trainer's" />
+
+		<EditText
+			android:id="@+id/notra"
+			android:layout_width="fill_parent"
+			android:layout_height="50dp"
+			android:layout_marginTop="5dp"
+			android:cursorVisible="true"
+			android:ems="5"
+			android:background="@drawable/rounded_corner"
+			android:layout_marginLeft="12dp"
+			android:layout_marginRight="12dp"
+
+			android:inputType="number"
+			android:maxLines="1"
+			android:padding="15dp"
+			android:textColor="#000000"
+			android:textSize="18dp"
+			android:textStyle="bold" />
+
+        <TextView
+      android:id="@+id/name1"
+       android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="#000000"
+	  android:textSize="18dp"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginLeft="12dp"
+	    android:textStyle="bold"
+	    android:layout_gravity="left"
+	    android:text="Number Of Floor's" />
+    
+     <EditText
+          android:id="@+id/floor"
+          android:layout_width="fill_parent"
+          android:layout_height="50dp"
+          android:layout_marginTop="5dp"
+          android:cursorVisible="true"
+          android:ems="5"
+          android:background="@drawable/rounded_corner"
+          android:layout_marginLeft="12dp"
+          android:layout_marginRight="12dp"
+          android:inputType="number"
+          android:maxLines="1"
+          android:padding="15dp"
+          android:textColor="#000000"
+         android:textSize="18dp"
+          android:textStyle="bold" />
+        
+          <TextView
+            android:id="@+id/textTY1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:text="Mobility of Center"
+            android:textColor="#000000"
+           android:textSize="18dp"
+            android:textStyle="bold" />
+         <RadioGroup 
+            android:id="@+id/mobility"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"  >
+        <RadioButton
+            android:id="@+id/mobility1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fixed"
+        android:textSize="18dp"
+             android:textColor="#000000"
+             android:textStyle="bold"
+             android:checked="true"
+            android:layout_marginTop="0dp"
+          
+             />
+
+        <RadioButton
+            android:id="@+id/mobility2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:layout_marginTop="-33dp"
+            android:layout_marginLeft="150dp"
+            android:textSize="18dp"
+             android:textColor="#000000"
+             android:textStyle="bold"
+             android:visibility="gone"
+            android:text="Mobile" 
+          
+            /></RadioGroup>
+        
+         <TextView
+            android:id="@+id/textTH1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:text="Dedicated Computer For Administration"
+            android:textColor="#000000"
+           android:textSize="18dp"
+            android:textStyle="bold" />
+         <RadioGroup
+             android:id="@+id/admin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+              >
+        <RadioButton
+            android:id="@+id/admin1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yes"
+           
+            android:layout_marginTop="0dp"
+              android:textSize="18dp"
+             android:textColor="#000000"
+             android:textStyle="bold"
+           />
+
+        <RadioButton
+            android:id="@+id/admin2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:layout_marginTop="-33dp"
+            android:layout_marginLeft="150dp"
+             android:textSize="18dp"
+             android:textColor="#000000"
+             android:textStyle="bold"
+            android:text="No" 
+          
+            /></RadioGroup>
+
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+
+			<Button
+				android:layout_margin="10dp"
+				android:textStyle="bold"
+				android:textColor="#fff"
+				android:id="@+id/adminprv"
+				android:background="@drawable/barback_1"
+				android:text="Prev"
+				android:layout_weight="1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+
+
+
+
+			<Button
+				android:layout_margin="10dp"
+				android:textStyle="bold"
+				android:textColor="#fff"
+				android:id="@+id/savebtn"
+				android:background="@drawable/barback_1"
+				android:text="Save"
+				android:layout_weight="1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+
+
+
+			<Button
+				android:layout_margin="10dp"
+				android:textStyle="bold"
+				android:textColor="#fff"
+				android:id="@+id/adminnext"
+				android:background="@drawable/barback_1"
+				android:text="Next"
+				android:layout_weight="1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+
+
+		</LinearLayout>
+
+
+
+        
+        
+        
+    </LinearLayout>
+
+</ScrollView>

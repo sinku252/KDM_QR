@@ -1,0 +1,368 @@
+<ScrollView   xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+  
+    >
+    
+    
+    
+     
+     <LinearLayout
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent" 
+     
+     android:orientation="vertical">
+   
+  <TextView
+      android:id="@+id/red"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+       
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#ff0000"
+        android:text="Please Enter all required fields with"
+         android:textSize="18dp"
+        android:textStyle="bold" />
+
+  <TextView
+      android:id="@+id/name1"
+       android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="#000000"
+	   android:textSize="18dp"
+	    android:layout_marginTop="20dp"
+	    android:layout_marginLeft="12dp"
+	    android:textStyle="bold"
+	    android:layout_gravity="left"
+	    android:text="Auditor Name " />
+    
+     <EditText
+          android:id="@+id/name"
+          android:layout_width="fill_parent"
+          android:layout_height="50dp"
+          android:layout_marginTop="5dp"
+          android:background="@drawable/rounded_corner"
+          android:layout_marginLeft="12dp"
+          android:layout_marginRight="12dp"
+          android:hint="Enter Name"
+          android:inputType="textPersonName"
+          android:maxLines="1"
+          android:padding="15dp"
+          android:textColor="#000000"
+          android:textSize="18dp"
+          android:textStyle="bold" >
+		 <requestFocus />
+		 </EditText>
+
+     <TextView
+         android:id="@+id/mobile1"
+         android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="#000000"
+	       android:textSize="18dp"
+	    android:layout_marginTop="20dp"
+	    android:layout_marginLeft="12dp"
+	    android:textStyle="bold"
+	    android:layout_gravity="left"
+	    android:text="Auditor Mobile Number"/>
+    
+     <EditText
+          android:id="@+id/mobile"
+          android:layout_width="fill_parent"
+          android:layout_alignLeft="@+id/name"
+          android:layout_below="@+id/name"
+          android:layout_marginLeft="12dp"
+          android:layout_marginRight="12dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="5dp"
+          android:background="@drawable/rounded_corner"
+          android:hint="Enter mobile"
+          android:inputType="number"
+          android:maxLines="1"
+          android:padding="15dp"
+          android:textColor="#000000"
+         android:textSize="18dp"
+          android:textStyle="bold" >
+
+
+      </EditText>
+
+     <TextView
+         android:id="@+id/sdms1"
+       android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="#000000"
+	     android:textSize="18dp"
+	    android:layout_marginTop="20dp"
+	    android:layout_marginLeft="12dp"
+	    android:textStyle="bold"
+	    android:layout_gravity="left"
+         android:text="Center Code" />
+     
+     
+     
+    
+ <EditText
+
+     	android:editable="false"
+          android:id="@+id/sdmsid1"
+          android:layout_width="fill_parent"
+          android:layout_below="@+id/pass"
+          android:layout_centerHorizontal="true"
+          android:layout_height="50dp"
+          android:layout_marginTop="5dp"
+          android:background="@drawable/rounded_corner"
+          android:cursorVisible="false"
+          android:ems="5"
+          android:layout_marginLeft="12dp"
+          android:layout_marginRight="12dp"
+          android:hint="Enter center code"
+          android:inputType="none"
+          android:maxLines="1"
+          android:padding="15dp"
+          android:textColor="#000000"
+           android:textSize="18dp"
+          android:textStyle="bold" />
+
+
+
+
+
+
+<!-- 
+<TextView
+         android:id="@+id/sdmsid1"
+       android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="#000000"
+	     android:textSize="18dp"
+	    android:layout_marginTop="20dp"
+	    android:layout_marginLeft="12dp"
+	    android:textStyle="bold"
+	    android:layout_gravity="left"
+         android:text=" Re Enter Center Code" />
+    
+<EditText
+          android:id="@+id/sdmsid2"
+          android:layout_width="fill_parent"
+          android:layout_below="@+id/pass"
+          android:layout_centerHorizontal="true"
+          android:layout_height="50dp"
+          android:layout_marginTop="5dp"
+          android:background="@drawable/rounded_corner"
+          android:cursorVisible="true"
+          android:ems="5"
+          android:maxLength="10"
+          android:layout_marginLeft="12dp"
+          android:layout_marginRight="12dp"
+          android:hint="Re enter center code"
+          android:inputType="textPersonName"
+          android:maxLines="1"
+         android:padding="15dp"
+          android:textColor="#000000"
+          android:textSize="18dp"
+          android:textStyle="bold" />
+ -->
+
+
+
+
+<TextView
+         android:id="@+id/centername1"
+       android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="#000000"
+	      android:textSize="18dp"
+	    android:layout_marginTop="20dp"
+	    android:layout_marginLeft="12dp"
+	    android:textStyle="bold"
+	    android:layout_gravity="left"
+         android:text="Center Name" />
+    
+<EditText
+
+          android:id="@+id/centername"
+          android:layout_width="fill_parent"
+          android:layout_below="@+id/pass"
+          android:layout_centerHorizontal="true"
+          android:layout_height="50dp"
+          android:layout_marginTop="5dp"
+          android:background="@drawable/rounded_corner"
+          android:cursorVisible="true"
+          android:layout_marginLeft="12dp"
+          android:layout_marginRight="12dp"
+          android:hint="Test center name"
+          android:inputType="text"
+          android:maxLines="1"
+          android:padding="15dp"
+          android:textColor="#000000"
+          android:textSize="18dp"
+          android:textStyle="bold" />
+
+
+
+<TextView
+         android:id="@+id/centernumber1"
+       android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="#000000"
+	   android:textSize="18dp"
+	    android:layout_marginTop="20dp"
+	    android:layout_marginLeft="12dp"
+	    android:textStyle="bold"
+	    android:layout_gravity="left"
+         android:text="Center Contact Number" />
+    
+<EditText
+          android:id="@+id/centernumber"
+          android:layout_width="fill_parent"
+          android:layout_below="@+id/pass"
+          android:layout_centerHorizontal="true"
+          android:layout_height="50dp"
+          android:layout_marginTop="5dp"
+          android:background="@drawable/rounded_corner"
+          android:cursorVisible="true"
+          android:ems="5"
+          android:layout_marginLeft="12dp"
+          android:layout_marginRight="12dp"
+          android:hint="Enter center contact number"
+          android:inputType="number"
+          android:maxLines="1"
+        android:padding="15dp"
+          android:textColor="#000000"
+         android:textSize="18dp"
+          android:textStyle="bold" />
+
+
+
+
+
+
+
+<TextView
+         android:id="@+id/centeremailid1"
+       android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="#000000"
+	   android:textSize="18dp"
+	    android:layout_marginTop="20dp"
+	    android:layout_marginLeft="12dp"
+	    android:textStyle="bold"
+	    android:layout_gravity="left"
+         android:text="Center EmailId" />
+    
+<EditText
+          android:id="@+id/centeremailid"
+          android:layout_width="fill_parent"
+          android:layout_height="50dp"
+          android:layout_marginTop="5dp"
+          android:cursorVisible="true"
+          android:ems="5"
+          android:background="@drawable/rounded_corner"
+          android:layout_marginLeft="12dp"
+          android:layout_marginRight="12dp"
+          android:hint="Enter emailaddress"
+          android:inputType="textEmailAddress"
+          android:maxLines="1"
+          android:padding="15dp"
+          android:textColor="#000000"
+           android:textSize="18dp"
+          android:textStyle="bold" />
+
+
+
+ <TextView
+         android:id="@+id/centermanagername1"
+       android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="#000000"
+	    android:textSize="18dp"
+	    android:layout_marginTop="20dp"
+	    android:layout_marginLeft="12dp"
+	    android:textStyle="bold"
+	    android:layout_gravity="left"
+         android:text="Center Manager Name" />
+    
+<EditText
+          android:id="@+id/centermanagername"
+          android:layout_width="fill_parent"
+          android:layout_below="@+id/pass"
+          android:layout_centerHorizontal="true"
+          android:layout_height="50dp"
+          android:layout_marginTop="5dp"
+          android:background="@drawable/rounded_corner"
+          android:cursorVisible="true"
+          android:ems="5"
+          android:layout_marginLeft="12dp"
+          android:layout_marginRight="12dp"
+          android:hint="Enter name"
+          android:inputType="textPersonName"
+          android:maxLines="1"
+         android:padding="15dp"
+          android:textColor="#000000"
+         android:textSize="18dp"
+          android:textStyle="bold" />
+
+		 <LinearLayout
+			 android:layout_width="match_parent"
+			 android:layout_height="wrap_content">
+
+
+			 <Button
+				 android:layout_margin="10dp"
+				 android:textStyle="bold"
+				 android:textColor="#fff"
+				 android:id="@+id/centerprv1"
+				 android:background="@drawable/barback_1"
+				 android:text="Prev"
+				 android:layout_weight="1"
+				 android:layout_width="wrap_content"
+				 android:layout_height="wrap_content" />
+
+
+
+
+			 <Button
+				 android:layout_margin="10dp"
+				 android:textStyle="bold"
+				 android:textColor="#fff"
+				 android:id="@+id/savebtn"
+				 android:background="@drawable/barback_1"
+				 android:text="Save"
+				 android:layout_weight="1"
+				 android:layout_width="wrap_content"
+				 android:layout_height="wrap_content" />
+
+
+
+			 <Button
+				 android:layout_margin="10dp"
+				 android:textStyle="bold"
+				 android:textColor="#fff"
+				 android:id="@+id/centernext1"
+				 android:background="@drawable/barback_1"
+				 android:text="Next"
+				 android:layout_weight="1"
+				 android:layout_width="wrap_content"
+				 android:layout_height="wrap_content" />
+
+
+		 </LinearLayout>
+
+
+
+
+
+
+
+
+            
+ </LinearLayout>
+    
+</ScrollView>
+
+ 
+
+
+

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:textColor="@color/textColorPrimary"
+        android:background="@color/colorPrimary"
+        android:text="OTP Verification"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="45dp"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/navigationBarColor"
+        android:text="Enter the code received"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:textColor="@color/navigationBarColor"
+        android:layout_marginTop="10dp"
+        android:id="@+id/editTextOtp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/buttonConfirm"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@color/colorPrimary"
+        android:padding="12dp"
+        android:text="Confirm"
+        android:textColor="@color/textColorPrimary" />
+
+
+</LinearLayout>

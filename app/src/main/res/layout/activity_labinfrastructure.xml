@@ -1,0 +1,390 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+   
+    android:layout_height="fill_parent" 
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tjext1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:text="Lab setup - as per requires guidelines"
+            
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+  <RadioGroup
+     android:id="@+id/labsetup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+     >
+        <RadioButton
+            android:id="@+id/labsetup1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:text="Yes"
+             android:textSize="18dp"
+             android:textColor="#000000"
+             android:textStyle="bold"
+            />
+
+        <RadioButton
+             android:id="@+id/labsetup2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:checked="true"
+              android:textSize="18dp"
+             android:textColor="#000000"
+             android:textStyle="bold"
+             android:layout_marginTop="-30dp"
+             android:layout_marginLeft="150dp"
+             android:text="No" 
+            
+           /></RadioGroup>
+        
+        
+         
+         <TextView
+      android:id="@+id/namgge1"
+       android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="#000000"
+	     android:textSize="18dp"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginLeft="12dp"
+	    android:textStyle="bold"
+	    android:layout_gravity="left"
+	    android:text="Number of light's " />
+    
+     <EditText
+          android:id="@+id/lablight"
+          android:layout_width="fill_parent"
+          android:layout_height="50dp"
+          android:layout_marginTop="5dp"
+          android:cursorVisible="true"
+          android:ems="5"
+          android:background="@drawable/rounded_corner"
+          android:layout_marginLeft="12dp"
+          android:layout_marginRight="12dp"
+          android:inputType="number"
+          android:maxLines="1"
+          android:padding="15dp"
+          android:textColor="#000000"
+            android:textSize="18dp"
+          android:textStyle="bold" />
+        
+        
+         <TextView
+      android:id="@+id/nathme1"
+       android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="#000000"
+	     android:textSize="18dp"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginLeft="12dp"
+	    android:textStyle="bold"
+	    android:layout_gravity="left"
+	    android:text="Number of fan's " />
+    
+     <EditText
+          android:id="@+id/labfan"
+          android:layout_width="fill_parent"
+          android:layout_height="50dp"
+          android:layout_marginTop="5dp"
+          android:cursorVisible="true"
+          android:ems="5"
+          android:background="@drawable/rounded_corner"
+          android:layout_marginLeft="12dp"
+          android:layout_marginRight="12dp"
+          android:inputType="number"
+          android:maxLines="1"
+          android:padding="15dp"
+          android:textColor="#000000"
+            android:textSize="18dp"
+          android:textStyle="bold" />
+       
+          <TextView
+            android:id="@+id/texmmt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:text="Props/Dispay stands/Mannequins"
+            android:textColor="#000000"
+              android:textSize="18dp"
+            android:textStyle="bold" />
+         <RadioGroup 
+            android:id="@+id/labstand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"  >
+        <RadioButton
+            android:id="@+id/labstand1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yes"
+           android:textSize="18dp"
+             android:textColor="#000000"
+             android:textStyle="bold"
+            android:layout_marginTop="0dp"
+          
+             />
+
+        <RadioButton
+            android:id="@+id/labstand2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:layout_marginTop="-33dp"
+            android:layout_marginLeft="150dp"
+           android:textSize="18dp"
+             android:textColor="#000000"
+             android:textStyle="bold"
+            android:text="No" 
+          
+            /></RadioGroup>
+        
+         <TextView
+            android:id="@+id/tevbxt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:text="First Aid Kit(LAB Specific)"
+            android:textColor="#000000"
+              android:textSize="18dp"
+            android:textStyle="bold" />
+         <RadioGroup
+             android:id="@+id/labkit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+              >
+        <RadioButton
+            android:id="@+id/labkit1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yes"
+           
+            android:layout_marginTop="0dp"
+             android:textSize="18dp"
+             android:textColor="#000000"
+             android:textStyle="bold"
+           />
+
+        <RadioButton
+            android:id="@+id/labkit2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:layout_marginTop="-33dp"
+            android:layout_marginLeft="150dp"
+             android:textSize="18dp"
+             android:textColor="#000000"
+             android:textStyle="bold"
+            android:text="No" 
+          
+            /></RadioGroup>
+         
+         
+         
+         
+         
+         
+           <TextView
+            android:id="@+id/texmht1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:text="POS Terminal and CC Machine Samples"
+            android:textColor="#000000"
+               android:textSize="18dp"
+            android:textStyle="bold" />
+        
+        
+<RadioGroup android:id="@+id/labcc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/labcc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:text="Yes"
+               android:textSize="18dp"
+             android:textColor="#000000"
+             android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/labcc2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:layout_marginTop="-30dp"
+            android:layout_marginLeft="150dp"
+               android:textSize="18dp"
+             android:textColor="#000000"
+             android:textStyle="bold"
+            android:text="No" 
+          
+           /></RadioGroup>
+        
+        
+        
+        
+        
+        
+         <TextView
+            android:id="@+id/texyut1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:text="Mock store setup"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+         
+<RadioGroup  android:id="@+id/labmock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/labmock1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:text="Yes"
+           android:textSize="18dp"
+             android:textColor="#000000"
+             android:textStyle="bold"/>
+
+        <RadioButton
+            android:id="@+id/labmock2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:layout_marginTop="-30dp"
+            android:layout_marginLeft="150dp"
+             android:textSize="18dp"
+             android:textColor="#000000"
+             android:textStyle="bold"
+            android:text="No" 
+         
+           /></RadioGroup>
+        
+        
+         <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:text="Laboratory Boards"
+            android:textColor="#000000"
+             android:textSize="18dp"
+            android:textStyle="bold" />
+         
+       <CheckBox
+            android:id="@+id/labboard1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:text="Display Boards"
+               android:textSize="18dp"
+             android:textColor="#000000"
+             android:textStyle="bold" ></CheckBox>
+
+        <CheckBox
+            android:id="@+id/labsafety"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:layout_marginTop="0dp"
+              android:textSize="18dp"
+             android:textColor="#000000"
+             android:textStyle="bold"
+            android:text="Safety Boards" 
+           
+           ></CheckBox>
+        
+         <CheckBox
+            android:id="@+id/labdonts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          
+            android:layout_marginTop="0dp"
+       
+               android:textSize="18dp"
+             android:textColor="#000000"
+             android:textStyle="bold"
+            android:text="DOs DONTs boards" 
+          
+           ></CheckBox>
+        
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:id="@+id/labprv"
+                android:background="@drawable/barback_1"
+                android:text="Prev"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+
+            <Button
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:id="@+id/savebtn"
+                android:background="@drawable/barback_1"
+                android:text="Save"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+            <Button
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:id="@+id/labnext"
+                android:background="@drawable/barback_1"
+                android:text="Next"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+        
+        
+        
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    
+<LinearLayout
+    
+    android:layout_marginTop="10dp"
+     android:background="@color/radiobutton1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+   <TextView 
+        android:id="@+id/label_sr_no"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="sr.no"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_sr_no"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="13sp"/>
+   
+   
+   <TextView 
+        android:id="@+id/label_classroom"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="classroom"
+      
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_classroom"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+       
+        
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   
+   <TextView 
+        android:id="@+id/label_light"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="light"
+       
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_light"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+       
+        
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   
+   <TextView 
+        android:id="@+id/label_fan"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="fan"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_fan"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+       
+        
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   
+   
+   
+   <TextView 
+        android:id="@+id/label_capacity"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="capacity"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_capacity"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+       
+       
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   
+   
+   
+   <TextView 
+        android:id="@+id/label_area"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="area"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_area"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+       
+        
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/label_speaker"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="speaker"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_speaker"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+      
+        
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   
+   <TextView 
+        android:id="@+id/label_projector"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="projector"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_projector"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+       
+      
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   
+   <TextView 
+        android:id="@+id/label_board"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="board"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_board"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        
+        
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   
+   <TextView 
+        android:id="@+id/label_laser"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="laser"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_laser"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        
+       
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/label_furniture"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="furniture"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_furniture"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        
+       
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/label_coarseware"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="coarseware"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_coarseware"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        
+       
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/label_slider"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="slider"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_slider"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+       
+       
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   
+   
+   
+   <TextView 
+        android:id="@+id/label_ventilated"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="ventilated"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_ventilated"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        
+       
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   
+   <TextView 
+        android:id="@+id/label_center_code"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="center code"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   <TextView 
+        android:id="@+id/value_center_code"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+       
+       
+        android:layout_below="@id/audit_name"
+        android:textSize="13sp"/>
+   
+   
+   
+   <ImageView
+       android:scaleType="centerCrop"
+       android:id="@+id/image22"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+   
+   
+   
+   
+   
+    
+
+</LinearLayout>
+</ScrollView>

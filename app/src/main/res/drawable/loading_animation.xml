@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="150">
+        <rotate xmlns:android="http://schemas.android.com/apk/res/android" android:drawable="@drawable/loading_07" android:pivotX="50%" android:pivotY="50%" android:fromDegrees="0" android:toDegrees="30" android:repeatCount="1" />
+    </item>
+    <item android:duration="150">
+        <rotate xmlns:android="http://schemas.android.com/apk/res/android" android:drawable="@drawable/loading_08" android:pivotX="50%" android:pivotY="50%" android:fromDegrees="0" android:toDegrees="30" android:repeatCount="1" />
+    </item>
+    <item android:duration="150">
+        <rotate xmlns:android="http://schemas.android.com/apk/res/android" android:drawable="@drawable/loading_09" android:pivotX="50%" android:pivotY="50%" android:fromDegrees="0" android:toDegrees="30" android:repeatCount="1" />
+    </item>
+    <item android:duration="150">
+        <rotate xmlns:android="http://schemas.android.com/apk/res/android" android:drawable="@drawable/loading_10" android:pivotX="50%" android:pivotY="50%" android:fromDegrees="0" android:toDegrees="30" android:repeatCount="1" />
+    </item>
+    <item android:duration="150">
+        <rotate xmlns:android="http://schemas.android.com/apk/res/android" android:drawable="@drawable/loading_11" android:pivotX="50%" android:pivotY="50%" android:fromDegrees="0" android:toDegrees="30" android:repeatCount="1" />
+    </item>
+    <item android:duration="150">
+        <rotate xmlns:android="http://schemas.android.com/apk/res/android" android:drawable="@drawable/loading_12" android:pivotX="50%" android:pivotY="50%" android:fromDegrees="0" android:toDegrees="30" android:repeatCount="1" />
+    </item>
+</animation-list>

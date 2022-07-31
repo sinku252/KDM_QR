@@ -1,0 +1,298 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+    
+    >
+    
+    
+     <LinearLayout
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent" 
+     android:orientation="vertical">
+
+ 
+
+<TextView
+         android:id="@+id/centermanagernumber"
+       android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="#000000"
+	   android:textSize="18dp"
+	    android:layout_marginTop="20dp"
+	    android:layout_marginLeft="12dp"
+	    android:textStyle="bold"
+	    android:layout_gravity="left"
+         android:text="Center Manager Mobile Number" />
+    
+<EditText
+          android:id="@+id/centermanagermobile"
+          android:layout_width="fill_parent"
+          android:layout_below="@+id/pass"
+          android:layout_centerHorizontal="true"
+          android:layout_height="50dp"
+          android:layout_marginTop="5dp"
+          android:background="@drawable/rounded_corner"
+          android:cursorVisible="true"
+          android:ems="5"
+
+          android:layout_marginLeft="12dp"
+          android:layout_marginRight="12dp"
+          android:hint="Enter mobile number"
+          android:inputType="number"
+          android:maxLines="1"
+         android:padding="15dp"
+          android:textColor="#000000"
+           android:textSize="18dp"
+          android:textStyle="bold" />
+
+
+
+<TextView
+         android:id="@+id/textView3"
+       android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="#000000"
+	     android:textSize="18dp"
+	    android:layout_marginTop="20dp"
+	    android:layout_marginLeft="12dp"
+	    android:textStyle="bold"
+	    android:layout_gravity="left"
+         android:text="Center Located in:" />
+
+<RadioGroup
+            android:id="@+id/radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+    
+     >
+ <RadioButton
+            android:id="@+id/city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+          
+               android:textSize="18dp"
+               android:textStyle="bold"
+            android:text="Class A cities/Urban" 
+            android:textColor="#000000"
+            />
+        
+        
+        <RadioButton
+            android:id="@+id/rural"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Other and Rural" 
+            android:textSize="18dp"
+            android:textStyle="bold"
+          
+            android:textColor="#000000"
+            />
+
+</RadioGroup>
+
+
+
+
+
+<TextView
+         android:id="@+id/traingingname"
+       android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="#000000"
+	      android:textSize="18dp"
+	    android:layout_marginTop="20dp"
+	    android:layout_marginLeft="12dp"
+	    android:textStyle="bold"
+	    android:layout_gravity="left"
+         android:text="Training Provider Name" />
+    
+<EditText
+          android:id="@+id/trainingprovidername"
+          android:layout_width="fill_parent"
+          android:layout_below="@+id/pass"
+          android:layout_centerHorizontal="true"
+          android:layout_height="50dp"
+          android:layout_marginTop="5dp"
+          android:background="@drawable/rounded_corner"
+          android:cursorVisible="true"
+          android:ems="5"
+          android:layout_marginLeft="12dp"
+          android:layout_marginRight="12dp"
+          android:hint="Enter training provider name"
+          android:inputType="textPersonName"
+          android:maxLines="1"
+           android:padding="15dp"
+          android:textColor="#000000"
+           android:textSize="18dp"
+          android:textStyle="bold" />
+
+        
+<TextView
+         android:id="@+id/traingnear"
+       android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="#000000"
+	      android:textSize="18dp"
+	    android:layout_marginTop="20dp"
+	    android:layout_marginLeft="12dp"
+	    android:textStyle="bold"
+	    android:layout_gravity="left"
+         android:text="Training Center Present on Which Floor" />
+    
+<EditText
+          android:id="@+id/trainingfloor"
+          android:layout_width="fill_parent"
+          android:layout_below="@+id/pass"
+          android:layout_centerHorizontal="true"
+          android:layout_height="50dp"
+          android:layout_marginTop="5dp"
+          android:background="@drawable/rounded_corner"
+          android:cursorVisible="true"
+          android:ems="5"
+          android:layout_marginLeft="12dp"
+          android:layout_marginRight="12dp"
+          android:hint="Enter Floor number"
+          android:inputType="number"
+          android:maxLines="1"
+        android:padding="15dp"
+          android:textColor="#000000"
+           android:textSize="18dp"
+          android:textStyle="bold" />
+
+
+
+<TextView
+      android:id="@+id/project"
+       android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="#000000"
+	    android:textSize="18dp"
+	    android:layout_marginTop="20dp"
+	    android:layout_marginLeft="12dp"
+	    android:textStyle="bold"
+	    android:layout_gravity="left"
+	    android:text="Project/SCHEME" />
+
+
+ <Spinner
+        android:id="@+id/projectselect"
+        android:layout_width="fill_parent"
+        android:textAlignment="center"
+        android:layout_marginLeft="15dp"
+           android:textSize="18dp"
+             android:padding="15dp"
+        android:layout_marginRight="15dp"
+       android:background="@drawable/rounded_corner"
+        android:layout_height="50dp"
+      />
+
+
+
+<TextView
+      android:id="@+id/job"
+       android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="#000000"
+	       android:textSize="18dp"
+	    android:layout_marginTop="20dp"
+	    android:layout_marginLeft="12dp"
+	    android:textStyle="bold"
+	    android:layout_gravity="left"
+	    android:text="Job Roles " />
+    
+     <EditText
+		  android:id="@+id/jobrole"
+          android:layout_width="fill_parent"
+          android:layout_height="50dp"
+          android:layout_marginTop="5dp"
+          android:cursorVisible="true"
+          android:ems="5"
+          android:background="@drawable/rounded_corner"
+          android:layout_marginLeft="12dp"
+          android:layout_marginRight="12dp"
+          android:hint="Enter job profiles Max Length 255"
+          android:inputType="textPersonName"
+          android:maxLines="1"
+          android:padding="15dp"
+          android:textColor="#000000"
+            android:textSize="18dp"
+          android:textStyle="bold" />
+<TextView
+      android:id="@+id/centermanageridproof"
+       android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="#000000"
+	   android:textSize="18dp"
+	    android:layout_marginTop="20dp"
+	    android:layout_marginLeft="12dp"
+	    android:textStyle="bold"
+	    android:layout_gravity="left"
+	    android:text="Center Manager ID Proof Type" />
+
+
+		 <Spinner
+                 android:id="@+id/selectid"
+                android:layout_width="fill_parent"
+                 android:textAlignment="center"
+                 android:layout_marginLeft="15dp"
+                   android:textSize="18dp"
+                     android:padding="15dp"
+                 android:layout_marginRight="15dp"
+                 android:background="@drawable/rounded_corner"
+                 android:layout_height="50dp"></Spinner>
+
+		 <LinearLayout
+			 android:layout_width="match_parent"
+			 android:layout_height="wrap_content">
+
+
+			 <Button
+				 android:layout_margin="10dp"
+				 android:textStyle="bold"
+				 android:textColor="#fff"
+				 android:id="@+id/centerprv2"
+				 android:background="@drawable/barback_1"
+				 android:text="Prev"
+				 android:layout_weight="1"
+				 android:layout_width="wrap_content"
+				 android:layout_height="wrap_content" />
+
+
+
+
+			 <Button
+				 android:layout_margin="10dp"
+				 android:textStyle="bold"
+				 android:textColor="#fff"
+				 android:id="@+id/savebtn"
+				 android:background="@drawable/barback_1"
+				 android:text="Save"
+				 android:layout_weight="1"
+				 android:layout_width="wrap_content"
+				 android:layout_height="wrap_content" />
+
+
+
+			 <Button
+				 android:layout_margin="10dp"
+				 android:textStyle="bold"
+				 android:textColor="#fff"
+				 android:id="@+id/centernext2"
+				 android:background="@drawable/barback_1"
+				 android:text="Next"
+				 android:layout_weight="1"
+				 android:layout_width="wrap_content"
+				 android:layout_height="wrap_content" />
+
+
+		 </LinearLayout>
+
+
+
+
+
+
+	 </LinearLayout>
+</ScrollView>

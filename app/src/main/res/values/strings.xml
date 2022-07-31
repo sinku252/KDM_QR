@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QR Scan</string>
+    <string name="title_activity_login">Login</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_center_audit">Center Audit</string>
+    <string name="title_activity_center_audit_details1">Center Audit Details</string>
+    <string name="title_activity_center_audit_details2">Center Audit Details</string>
+    <string name="title_activity_center_audit_details3">Center Audit Details</string>
+    <string name="title_activity_admin">Admin Infrastructure</string>
+    <string name="title_activity_admin1">Admin Infrastructure</string>
+    <string name="title_activity_admin_infraphotos">Admin Infra Photos</string>
+    <string name="title_activity_class_room_infra">Class Room Infra</string>
+    <string name="title_activity_class_room_infra_photos">Class Room Picture </string>
+    <string name="title_activity_lab_infrastructure">Lab Infrastructure</string>
+    <string name="title_activity_lab_infra_photos">Lab Infra Photos</string>
+    <string name="title_activity_trainer_info">Trainer Info</string>
+    <string name="title_activity_trainer_photos">Trainer Photos</string>
+    <string name="title_activity_reviewcenterdetails">Review Center Details</string>
+    <string name="title_activity_splash">QR Scan</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_admin_home_page">AdminHomePage</string>
+    <string name="title_activity_user_details">UserDetails</string>
+
+    <string name="runtime_permissions_txt">Please enable ALL permissions from app settings.</string>
+
+    <string name="msg_loading">Please wait&#8230;</string>
+    <string name="error_data_loading">When loading data error has occurred. Check your network connection.</string>
+</resources>

@@ -1,0 +1,269 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+      
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+  
+    
+     <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Trainer Picture's" />
+     
+     
+     <TextView
+        android:id="@+id/textView_trainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="sfsbfkbkfbf skj"
+        android:visibility="gone"/>
+     
+    <FrameLayout
+       android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+
+
+        <FrameLayout
+            android:layout_gravity="right|center_vertical"
+            android:layout_width="140dp"
+            android:layout_height="90dp"
+            >
+
+            <ImageView
+                android:id="@+id/trainerphoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sample">
+            </ImageView>
+
+        </FrameLayout>
+    
+   
+     
+
+
+    <Button
+            android:id="@+id/trainerphoto1"
+            style="@style/btnStyleBlackpearl"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+               android:background="@drawable/barback_1"
+             android:layout_marginLeft="5dp"
+             android:text="Trainer Photo"
+             android:textSize="18dp"
+            android:layout_gravity="left|center_vertical">
+            
+         </Button>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="TextView" />
+
+     </FrameLayout>
+     
+   
+    <FrameLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+
+        <FrameLayout
+            android:layout_gravity="right|center_vertical"
+            android:layout_width="140dp"
+            android:layout_height="90dp"
+            >
+
+            <ImageView
+                android:id="@+id/trainerid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sample">
+            </ImageView>
+
+    </FrameLayout>
+    
+   
+     
+
+
+    <Button
+            android:id="@+id/trainerid1"
+            style="@style/btnStyleBlackpearl"
+           android:layout_width="160dp"
+          android:layout_height="67dp"
+               android:background="@drawable/barback_1"
+             android:layout_marginLeft="5dp"
+             android:text="ID Proof/TTT Cretificate"
+             android:textSize="18dp"
+            android:layout_gravity="left|center_vertical">
+            
+         </Button>
+     </FrameLayout>
+
+    <FrameLayout
+            android:layout_marginTop="5dp"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content" >
+
+
+             <FrameLayout
+                 android:layout_gravity="right|center_vertical"
+                 android:layout_width="140dp"
+                 android:layout_height="90dp"
+                 >
+
+                 <ImageView
+                     android:id="@+id/trainercertificate"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:src="@drawable/sample">
+                 </ImageView>
+
+             </FrameLayout>
+
+
+
+
+         <Button
+                 android:id="@+id/trainercertificate1"
+                 style="@style/btnStyleBlackpearl"
+                android:layout_width="160dp"
+                 android:layout_height="67dp"
+                     android:background="@drawable/barback_1"
+                  android:layout_marginLeft="5dp"
+                  android:text="Latest Acadamic Certificate"
+                  android:textSize="18dp"
+                 android:layout_gravity="left|center_vertical">
+
+              </Button>
+          </FrameLayout>
+
+    <FrameLayout
+            android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+
+        <FrameLayout
+            android:layout_gravity="right|center_vertical"
+            android:layout_width="140dp"
+            android:layout_height="90dp"
+            >
+
+            <ImageView
+                android:id="@+id/trainerpayslip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sample">
+            </ImageView>
+
+        </FrameLayout>
+
+
+        <Button
+                android:id="@+id/trainerpayslip1"
+                style="@style/btnStyleBlackpearl"
+               android:layout_width="160dp"
+                android:layout_height="67dp"
+                   android:background="@drawable/barback_1"
+                 android:layout_marginLeft="5dp"
+                 android:text="PaySlip/Bank Statement"
+                 android:textSize="18dp"
+                android:layout_gravity="left|center_vertical">
+
+             </Button>
+    </FrameLayout>
+    
+    <Button
+            android:id="@+id/traineradd"
+            style="@style/btnStyleBlackpearl"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="27dp"
+            android:layout_height="wrap_content"
+               android:background="@drawable/barback_1"
+             android:layout_marginLeft="20dp"
+             android:text="Add Another Trainer"
+             android:textSize="20dp"
+            android:layout_centerHorizontal="true"
+             android:layout_marginRight="20dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"></Button>
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:id="@+id/trainerprv1"
+                android:background="@drawable/barback_1"
+                android:text="Prev"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+
+            <Button
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:id="@+id/savebtn"
+                android:background="@drawable/barback_1"
+                android:text="Save"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+            <Button
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:id="@+id/trainernext1"
+                android:background="@drawable/barback_1"
+                android:text="Next"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+
+
+     </LinearLayout>
+     </ScrollView>

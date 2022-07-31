@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:layout_weight="1"
+        android:focusable="false"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:id="@+id/item_data"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="Data"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="Del"
+        android:id="@+id/bt_del"
+        android:layout_height="35dp"
+        android:layout_width="wrap_content" />
+
+</LinearLayout>

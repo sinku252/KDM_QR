@@ -1,0 +1,153 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+      
+      android:orientation="vertical" >
+
+   
+  
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Class Room Picture" />
+    
+    <TextView
+        android:id="@+id/textView_srno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:visibility="gone" />
+     
+   <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+         >
+
+       <LinearLayout
+           android:layout_gravity="right"
+           android:layout_width="140dp"
+           android:layout_height="90dp">
+
+           <ImageView
+               android:layout_height="wrap_content"
+               android:layout_width="wrap_content"
+               android:id="@+id/classfurniturephoto"
+               android:layout_marginTop="10dp"
+               android:layout_gravity="right|center_vertical"
+               android:src="@drawable/sample">
+           </ImageView>
+
+        </LinearLayout>
+     
+
+
+    <Button
+            android:id="@+id/classfurniturephoto1"
+            style="@style/btnStyleBlackpearl"
+            android:layout_width="160dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="67dp"
+               android:background="@drawable/barback_1"
+             android:layout_marginLeft="5dp"
+             android:text="Class Room With Furniture Photo"
+             android:textSize="18dp"
+            android:layout_gravity="left">
+            
+         </Button>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="TextView" />
+
+         </FrameLayout>
+         
+   
+         
+           <Button
+                android:id="@+id/classanother"
+            style="@style/btnStyleBlackpearl"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="150dp"
+            android:layout_height="wrap_content"
+               android:background="@drawable/barback_1"
+             android:layout_marginLeft="20dp"
+             android:text="Audit Another Classroom"
+             android:textSize="18dp"
+            android:layout_centerHorizontal="true"
+             android:layout_marginRight="20dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"></Button>
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:id="@+id/classprv1"
+            android:background="@drawable/barback_1"
+            android:text="Prev"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+
+        <Button
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:id="@+id/savebtn"
+            android:background="@drawable/barback_1"
+            android:text="Save"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+        <Button
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:id="@+id/classnext1"
+            android:background="@drawable/barback_1"
+            android:text="Next"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+

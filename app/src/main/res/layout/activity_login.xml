@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+      
+    android:orientation="vertical">
+   
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="60dp">
+    
+   
+     
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/kdm2">
+       </ImageView>
+      
+       
+    
+    </FrameLayout>
+    
+    
+    
+    
+    
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="21dp" 
+        android:layout_marginTop="30dp">
+        
+        
+        <TextView
+	    android:id="@+id/textView"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="#000000"
+	    android:textSize="20dp"
+	    android:textStyle="bold"
+	    android:layout_gravity="center"
+	    android:text="Phone No. : " />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/userid"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:ems="10"
+        android:singleLine="true"
+      	android:inputType="number"
+        android:cursorVisible="true"
+        android:padding="15dp"
+        android:hint="Enter your Phone No"
+        android:background="@drawable/rounded_corner"
+        android:textStyle="bold"
+		android:layout_marginTop="3dp"
+        android:textColor="#000000"
+        android:layout_marginRight="20dp"
+       
+        
+      >
+
+        <requestFocus />
+    </EditText>
+    
+
+    
+    
+         <Button
+            android:id="@+id/login"
+         android:background="@drawable/barback_1"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+             android:layout_marginLeft="20dp"
+             android:text="Request Login OTP"
+               android:textColor="#FFFFFF"
+             android:textSize="20dp"
+             android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+             android:layout_marginRight="20dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"></Button>
+            
+
+    
+
+</LinearLayout>

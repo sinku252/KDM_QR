@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+      
+    >
+  
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="60dp">
+    
+   
+     
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/kdm2">
+       </ImageView>
+      
+       
+    
+    </FrameLayout>
+    
+
+     <Button
+            android:id="@+id/ScanChallan"
+            style="@style/btnStyleBlackpearl"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="27dp"
+            android:layout_height="wrap_content"
+                android:background="@drawable/barback_1"
+             android:layout_marginLeft="20dp"
+             android:text="Scan Challan"
+             android:textSize="25dp"
+            android:layout_centerHorizontal="true"
+             android:layout_marginRight="20dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"></Button>
+
+    <Button
+        android:id="@+id/scanItems"
+        style="@style/btnStyleBlackpearl"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="27dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/barback_1"
+        android:layout_marginLeft="20dp"
+        android:text="Scan Items"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="20dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"></Button>
+    
+    
+     <Button
+            android:id="@+id/syncauditcenters"
+            style="@style/btnStyleBlackpearl"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="27dp"
+            android:textSize="25dp"
+                android:background="@drawable/barback_1"
+            android:layout_height="wrap_content"
+             android:layout_marginLeft="20dp"
+             android:text="Sync Data"
+            android:layout_centerHorizontal="true"
+             android:layout_marginRight="20dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"></Button>
+     
+     
+       <Button
+            android:id="@+id/exit"
+            style="@style/btnStyleBlackpearl"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="27dp"
+            android:textSize="25dp"
+               android:background="@drawable/barback_1"
+            android:layout_height="wrap_content"
+             android:layout_marginLeft="20dp"
+             android:text="Exit"
+            android:layout_centerHorizontal="true"
+             android:layout_marginRight="20dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"></Button>
+    
+    
+</LinearLayout>

@@ -1,0 +1,399 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+       
+        >
+
+        
+         <TextView
+      android:id="@+id/name1d"
+       android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="#000000"
+	     android:textSize="18dp"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginLeft="12dp"
+	    android:textStyle="bold"
+	    android:layout_gravity="left"
+	    android:text="Trainer Name " />
+    
+     <EditText
+	      android:id="@+id/trainername"
+          android:layout_width="fill_parent"
+          android:layout_height="50dp"
+          android:layout_marginTop="5dp"
+          android:cursorVisible="true"
+          android:ems="5"
+          android:hint="Enter name"
+          android:background="@drawable/rounded_corner"
+          android:layout_marginLeft="12dp"
+          android:layout_marginRight="12dp"
+          android:inputType="textPersonName"
+          android:maxLines="1"
+        android:padding="15dp"
+            android:maxLength="100"
+          android:textColor="#000000"
+           android:textSize="18dp"
+          android:textStyle="bold" />
+         <TextView
+            android:id="@+id/teddxt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:text="Trainer Engegement"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+  <RadioGroup
+     android:id="@+id/trainereng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+     >
+        <RadioButton
+            android:id="@+id/trainereng1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:text="Full Time"
+           android:textSize="18dp"
+             android:textColor="#000000"
+             android:textStyle="bold"
+            />
+
+        <RadioButton
+             android:id="@+id/trainereng2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:checked="true"
+              android:textSize="18dp"
+             android:textColor="#000000"
+             android:textStyle="bold"
+             android:layout_marginTop="-30dp"
+             android:layout_marginLeft="150dp"
+             android:text="Part Time" 
+            
+           /></RadioGroup>
+        
+         <TextView
+      android:id="@+id/textvieew1"
+       android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="#000000"
+	   android:textSize="18dp"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginLeft="12dp"
+	    android:textStyle="bold"
+	    android:layout_gravity="left"
+	    android:text="No.of year experience " />
+    
+     <EditText
+          android:id="@+id/trainerexp"
+          android:layout_width="fill_parent"
+          android:layout_height="50dp"
+          android:layout_marginTop="5dp"
+          android:cursorVisible="true"
+          android:ems="5"
+          android:background="@drawable/rounded_corner"
+          android:layout_marginLeft="12dp"
+          android:layout_marginRight="12dp"
+         android:hint="Enter no. of exp."
+          android:inputType="number"
+          android:maxLines="1"
+          android:padding="15dp"
+          android:textColor="#000000"
+          android:textSize="18dp"
+          android:textStyle="bold" />
+     
+     
+     
+     
+      <TextView
+            android:id="@+id/tttext1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:text="Qualification"
+            android:textColor="#000000"
+              android:textSize="18dp"
+            android:textStyle="bold" />
+      
+      <RadioGroup 
+            android:id="@+id/trainerqualification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+     
+    
+      <RadioButton
+            android:id="@+id/trainerqualification1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:text="Post Graduate"
+            android:checked="true"
+            android:textColor="#000000"
+           android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/trainerqualification2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:textColor="#000000"
+             android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="Graduate" 
+           
+           />
+        
+         <RadioButton
+            android:id="@+id/trainerqualification3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          
+            android:layout_marginTop="0dp"
+       
+             android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="Intermediate" 
+          
+           />
+      
+        <RadioButton
+            android:id="@+id/trainerqualification4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          
+            android:layout_marginTop="0dp"
+       
+             android:textColor="#000000"
+           android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="SSC" 
+            
+           />
+      
+      </RadioGroup>
+     
+    
+     
+     
+        
+        <TextView
+      android:id="@+id/name1"
+       android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="#000000"
+	     android:textSize="18dp"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginLeft="12dp"
+	    android:textStyle="bold"
+	    android:layout_gravity="left"
+	    android:text="Email Id" />
+    
+     <EditText
+          android:id="@+id/traineremailid"
+          android:layout_width="fill_parent"
+          android:layout_height="50dp"
+          android:layout_marginTop="5dp"
+          android:cursorVisible="true"
+          android:ems="5"
+          android:background="@drawable/rounded_corner"
+          android:layout_marginLeft="12dp"
+          android:layout_marginRight="12dp"
+         android:hint="Enter email id"
+          android:inputType="textEmailAddress"
+          android:maxLines="1"
+          android:padding="15dp"
+          android:textColor="#000000"
+            android:textSize="18dp"
+          android:textStyle="bold" />
+        
+     
+     
+     
+      <TextView
+      android:id="@+id/textview1"
+       android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="#000000"
+	    android:textSize="18dp"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginLeft="12dp"
+	    android:textStyle="bold"
+	    android:layout_gravity="left"
+	    android:text="Contact Number" />
+    
+     <EditText
+          android:id="@+id/tarinernumber"
+          android:layout_width="fill_parent"
+          android:layout_height="50dp"
+          android:layout_marginTop="5dp"
+          android:cursorVisible="true"
+          android:ems="5"
+          android:background="@drawable/rounded_corner"
+          android:layout_marginLeft="12dp"
+          android:layout_marginRight="12dp"
+         android:hint="Enter contact number"
+          android:inputType="number"
+          android:maxLines="1"
+        android:padding="15dp"
+          android:textColor="#000000"
+            android:textSize="18dp"
+          android:textStyle="bold" />
+        
+     
+     
+     
+          <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:text="TT Certificate done"
+            android:textColor="#000000"
+             android:textSize="18dp"
+            android:textStyle="bold" />
+          
+          
+         <RadioGroup 
+            android:id="@+id/trainercertification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"  >
+        <RadioButton
+            android:id="@+id/trainercertification1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yes"
+           android:textSize="18dp"
+             android:textColor="#000000"
+             android:textStyle="bold"
+            android:layout_marginTop="0dp"
+          
+             />
+
+        <RadioButton
+            android:id="@+id/trainercertification2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:layout_marginTop="-33dp"
+            android:layout_marginLeft="150dp"
+           android:textSize="18dp"
+             android:textColor="#000000"
+             android:textStyle="bold"
+            android:text="No" 
+          
+            /></RadioGroup>
+        
+         <TextView
+            android:id="@+id/texyut1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:text="Trainer Handbook available"
+            android:textColor="#000000"
+              android:textSize="18dp"
+            android:textStyle="bold" />
+         <RadioGroup
+             android:id="@+id/trainerbook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+              >
+        <RadioButton
+            android:id="@+id/trainerbook1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yes"
+           
+            android:layout_marginTop="0dp"
+             android:textSize="18dp"
+             android:textColor="#000000"
+             android:textStyle="bold"
+           />
+
+        <RadioButton
+            android:id="@+id/trainerbook2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:layout_marginTop="-33dp"
+            android:layout_marginLeft="150dp"
+              android:textSize="18dp"
+             android:textColor="#000000"
+             android:textStyle="bold"
+            android:text="No" 
+          
+            /></RadioGroup>
+        
+
+
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+
+			<Button
+				android:layout_margin="10dp"
+				android:textStyle="bold"
+				android:textColor="#fff"
+				android:id="@+id/trainerprv"
+				android:background="@drawable/barback_1"
+				android:text="Prev"
+				android:layout_weight="1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+
+
+
+
+			<Button
+				android:layout_margin="10dp"
+				android:textStyle="bold"
+				android:textColor="#fff"
+				android:id="@+id/savebtn"
+				android:background="@drawable/barback_1"
+				android:text="Save"
+				android:layout_weight="1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+
+
+
+			<Button
+				android:layout_margin="10dp"
+				android:textStyle="bold"
+				android:textColor="#fff"
+				android:id="@+id/trainernext"
+				android:background="@drawable/barback_1"
+				android:text="Next"
+				android:layout_weight="1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+
+
+		</LinearLayout>
+
+
+
+	</LinearLayout>
+
+</ScrollView>
