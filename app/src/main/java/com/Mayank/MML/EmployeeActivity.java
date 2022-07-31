@@ -107,7 +107,6 @@ public class EmployeeActivity extends AppCompatActivity {
                         }catch (Exception e) {
                             // TODO: handle exception
                         }
-
                         selectImage1();
                     }
                 }

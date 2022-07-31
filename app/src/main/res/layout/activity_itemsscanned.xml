@@ -18,13 +18,6 @@
         android:textColor="#000000"
         android:textSize="18dp"
         android:textStyle="bold" />
-    <!--<CheckBox
-        android:id="@+id/updateCheckBox"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Update (will update the data on checked)"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />-->
     <ListView
         android:id="@+id/itemsScannedList"
         android:layout_width="match_parent"
